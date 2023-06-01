@@ -1,24 +1,17 @@
 from flask import Flask, request, jsonify,json
 import requests
+from dotenv import load_dotenv
+import os
 
 app = Flask(__name__)
+load_dotenv()
 
 @app.route('/')
 def hello():
     return 'Hola mundo!, buscador de retail distribuido a su disposiciòn!'
 
 # Especificar los endpoints de los esclavos
-esclavos = [
-    'http://localhost:5002',
-    'http://localhost:5003',
-    'http://localhost:5004'
-    
-]
-# Escalabilidad de esclavos:
-# ,'http://localhost:5005'
-# ,'http://localhost:5006'
-# ,'http://localhost:5007'
-# etc...
+esclavos = os.getenv("ESCLAVOS").split(',')
 
 # El índice del esclavo que se usará para la próxima búsqueda
 index_esclavo = 0
