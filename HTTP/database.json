@@ -1,0 +1,29 @@
+{
+  "products": [
+    {"id": 1, "pname": "camisa", "price": 20, "categoria": "ropa"},
+    {"id": 2, "pname": "pantalon", "price": 30, "categoria": "ropa"},
+    {"id": 3, "pname": "calcetines", "price": 5, "categoria": "calzado"},
+    {"id": 4, "pname": "zapatos", "price": 50, "categoria": "calzado"},
+    {"id": 5, "pname": "lenovo", "price": 10, "categoria": "computacion"},
+    {"id": 6, "pname": "hp", "price": 15, "categoria": "computacion"},
+    {"id": 7, "pname": "mueble", "price": 25, "categoria": "mobiliaria"},
+    {"id": 8, "pname": "silla", "price": 40, "categoria": "mobiliaria"},
+    {"id": 9, "pname": "microondas", "price": 45, "categoria": "domestico"},
+    {"id": 10, "pname": "licuadora", "price": 60, "categoria": "domestico"},
+    {"id": 11, "pname": "reloj", "price": 80, "categoria": "accesorios"},
+    {"id": 12, "pname": "sombrero", "price": 15, "categoria": "accesorios"},
+    {"id": 13, "pname": "telefono", "price": 300, "categoria": "telefonia"},
+    {"id": 14, "pname": "auriculares", "price": 50, "categoria": "telefonia"},
+    {"id": 15, "pname": "cama", "price": 200, "categoria": "mobiliaria"},
+    {"id": 16, "pname": "mesa", "price": 100, "categoria": "mobiliaria"},
+    {"id": 17, "pname": "tenedor", "price": 2, "categoria": "cocina"},
+    {"id": 18, "pname": "olla", "price": 30, "categoria": "cocina"},
+    {"id": 19, "pname": "toalla", "price": 10, "categoria": "bano"},
+    {"id": 20, "pname": "jabon", "price": 5, "categoria": "bano"},
+    {"id": 21, "pname": "botas", "price": 70, "categoria": "calzado"},
+    {"id": 22, "pname": "sandalias", "price": 25, "categoria": "calzado"},
+    {"id": 23, "pname": "cartera", "price": 50, "categoria": "accesorios"},
+    {"id": 24, "pname": "maletin", "price": 80, "categoria": "accesorios"},
+    {"id": 25, "pname": "aspiradora", "price": 100, "categoria": "domestico"}
+  ]
+}
