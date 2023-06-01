@@ -4,12 +4,12 @@ app = Flask(__name__)
 
 # Leer los productos del archivo JSON
 # formato ejemplo: {"id": 1, "pname": "camisa", "price": 20, "categoria": "ropa"}
-with open("database.json", "r") as file:
+with open("../database/database.json", "r") as file:
     products = json.load(file)["products"]
 
 # Aquí se inicia la aplicación Flask
 # El parámetro "port" especifica en qué puerto se ejecutará la aplicación
-app.run(port=5005, debug=True)
+app.run(port=5002, debug=True)
 
 @app.route('/')
 def hello():

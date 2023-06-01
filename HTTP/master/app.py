@@ -18,7 +18,7 @@ categorias_esclavos = {esclavo: [] for esclavo in esclavos}
 productos_esclavos = {esclavo: [] for esclavo in esclavos}
 
 # Obtener la lista de categorías y productos del archivo JSON
-with open('./database.json') as f:
+with open('../database/database.json') as f:
     data = json.load(f)
     products = data['products']
     categorias = set([product['categoria'] for product in products])

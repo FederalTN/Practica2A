@@ -16,28 +16,34 @@ requests -> pip3 install requests
 
 ~EJECUTAR ESCLAVOS
 
+cd slave1
 export FLASK_APP=esclavo1.py
 flask run --port=5002
-
+/
+cd slave2
 export FLASK_APP=esclavo2.py
 flask run --port=5003
-
+/
+cd slave3
 export FLASK_APP=esclavo3.py
 flask run --port=5004
 
 
 ~EJECUTAR ESCLAVOS EXTRA
 
+cd slave4
 export FLASK_APP=esclavo4.py
 flask run --port=5005
 .
 .
 .
+cd slaven
 export FLASK_APP=esclavo(n).py
 flask run --port=500(n+1)
 
 ~EJECUTAR MAESTRO
 
+cd master
 export FLASK_APP=app
 flask run -p 5001
 
