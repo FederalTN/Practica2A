@@ -11,6 +11,8 @@ Flask    -> pip3 install flask
 
 requests -> pip3 install requests
 
+dotenv   -> pip install python-dotenv     (Alternativa)     pip3 install dotenv
+
 --CONFIG .env--
 
 -CONFIG ESCLAVOS
