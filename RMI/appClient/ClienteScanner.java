@@ -1,13 +1,8 @@
+import java.io.*;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.RemoteException;
 import java.util.*;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.FileInputStream;
-import java.util.Properties;
-
 
 class ClienteScanner {
 
@@ -33,18 +28,19 @@ class ClienteScanner {
 
             // Archivo de configuracion
             Properties prop = new Properties();
-            FileInputStream configFile = new FileInputStream("config.properties");
-            prop.load(configFile);
-            configFile.close();
+            FileInputStream configInputStream = new FileInputStream("config.properties");
+            prop.load(configInputStream);
+            configInputStream.close();
 
-            // Obtener los valores de path y archivoLog desde el archivo de configuración
+            // Obtener el archivo .log y ultimaLineaLeida (memoria) desde el archivo de configuración
             String path = prop.getProperty("path");
             String archivoName = prop.getProperty("archivoLog");
             String archivoLog = path + archivoName;
+            long ultimaLineaLeida = Long.parseLong(prop.getProperty("ultimaLineaLeida"));
 
             // 5 segundos en milisegundos
             int tiempoEspera = 5000;
-            leerArchivoLog(srv, c, apodo, archivoLog, tiempoEspera);
+            leerArchivoLog(srv, c, apodo, archivoLog, tiempoEspera, ultimaLineaLeida, prop);
 
             // Avisa desconexión del cliente al servidor
             srv.baja(c);
@@ -57,9 +53,7 @@ class ClienteScanner {
         }
     }
 
-    private static void leerArchivoLog(ServicioChat srv, ClienteImpl cliente, String nombreCliente, String archivoLog, int tiempoEspera) throws RemoteException {
-        long ultimaLineaLeida = 0;  // Variable para almacenar el número de la última línea leída
-
+    private static void leerArchivoLog(ServicioChat srv, ClienteImpl cliente, String nombreCliente, String archivoLog, int tiempoEspera, long ultimaLineaLeida, Properties prop) throws RemoteException {
         while (true) {
             try (BufferedReader br = new BufferedReader(new FileReader(archivoLog))) {
                 // Saltar las líneas previamente leídas
@@ -86,9 +80,18 @@ class ClienteScanner {
             }
 
             try {
+                // Guardar la última línea leída en el archivo de configuración
+                prop.setProperty("ultimaLineaLeida", String.valueOf(ultimaLineaLeida));
+                FileOutputStream configOutputStream = new FileOutputStream("config.properties");
+                prop.store(configOutputStream, null);
+                configOutputStream.close();
+
                 Thread.sleep(tiempoEspera);  // Esperar el tiempo especificado antes de la próxima lectura
             } catch (InterruptedException e) {
                 System.err.println("Error al esperar el tiempo especificado.");
+                e.printStackTrace();
+            } catch (IOException e) {
+                System.err.println("Error al guardar la última línea leída en el archivo de configuración.");
                 e.printStackTrace();
             }
         }
