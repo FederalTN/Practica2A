@@ -16,11 +16,9 @@ class ServicioChatImpl implements ServicioChat {
     public void alta(Cliente c) throws RemoteException {
         l.add(c);
         int id = l.indexOf(c) + 1;
-        // Fecha y hora de conexion
-        Date fecha = new Date();
-        SimpleDateFormat formatoFecha = new SimpleDateFormat("yyyy-MM-dd;HH:mm:ss");
-        String fechaFormateada = formatoFecha.format(fecha);
-        String registro = "inicio de conexion;cliente" + id + ";" + fechaFormateada;
+        // timestamp de conexion
+        long timestamp = System.currentTimeMillis() / 1000;
+        String registro = "inicio de conexion;cliente" + id + "; " + timestamp;
         System.out.println(registro);
         // Guardar registro en archivo
         FileWriter fw;
@@ -37,11 +35,9 @@ class ServicioChatImpl implements ServicioChat {
     public void baja(Cliente c) throws RemoteException {
         int id = l.indexOf(c) + 1;
         l.remove(c);
-        // fecha y hora de desconexion
-        Date fecha = new Date();
-        SimpleDateFormat formatoFecha = new SimpleDateFormat("yyyy-MM-dd;HH:mm:ss");
-        String fechaFormateada = formatoFecha.format(fecha);
-        String registro = "fin de conexion;cliente" + id + ";" + fechaFormateada;
+        // timestamp de desconexion
+        long timestamp = System.currentTimeMillis() / 1000;
+        String registro = "fin de conexion;cliente" + id + ";" + timestamp;
         System.out.println(registro);
         // Guardar registro en archivo
         FileWriter fw;

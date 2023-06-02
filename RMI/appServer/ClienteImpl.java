@@ -10,13 +10,5 @@ class ClienteImpl extends UnicastRemoteObject implements Cliente {
     // Constructor del cliente
     ClienteImpl() throws RemoteException {
     }
-    // Respuesta del server (notificacion)
-    public void notificacion(String apodo, String m) throws RemoteException {
-        System.out.println("\n" + m);
-    }
-    // Obtencion del id de cada cliente
-    public int getId() throws RemoteException {
-        return id;
-    }
 }
 
