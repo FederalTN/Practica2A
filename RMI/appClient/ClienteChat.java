@@ -2,7 +2,6 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.RemoteException;
 import java.util.*;
-import java.text.SimpleDateFormat;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -28,13 +27,11 @@ class ClienteChat {
 
             String apodo = args[0];
             System.out.print("Inicializado, cliente: " + apodo + "\n");
-            String msg;
-            String msgExit = "EXIT";
-            
+
             // Ruta al archivo .log
-            String archivoLog = "../../LOGS/log_1.log";  
+            String archivoLog = "../../LOGS/log_1.log";
             // 5 segundos en milisegundos
-            int tiempoEspera = 5000;  
+            int tiempoEspera = 5000;
             leerArchivoLog(srv, c, apodo, archivoLog, tiempoEspera);
 
             // Avisa desconexión del cliente al servidor
@@ -62,11 +59,9 @@ class ClienteChat {
                 while ((linea = br.readLine()) != null) {
                     // Registro correlativo
                     int numeroCorrelativo = srv.numeroCorrelativoActual();
-                    // Registro fecha acción
-                    Date fecha = new Date();
-                    SimpleDateFormat formatoFecha = new SimpleDateFormat("yyyy-MM-dd;HH:mm:ss");
-                    String fechaFormateada = formatoFecha.format(fecha);
-                    String mensajeRegistro = linea + ";" + fechaFormateada + "; cliente" + nombreCliente;
+                    // Registro timestamp
+                    long timestamp = System.currentTimeMillis() / 1000;
+                    String mensajeRegistro = linea + ";" + timestamp + "; cliente" + nombreCliente;
                     // Envío de mensaje
                     srv.envio(cliente, nombreCliente, mensajeRegistro);
                     System.out.println(mensajeRegistro);

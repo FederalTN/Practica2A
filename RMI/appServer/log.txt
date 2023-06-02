@@ -77,3 +77,39 @@ inicio de conexion;cliente1;2023-06-01;19:16:58
 1685663805; buscar por categorias; fin;2023-06-01;19:16:58;luis;cliente1;2023-06-01;19:16:58
 1685663813; buscar por productos; ini;2023-06-01;19:16:58;luis;cliente1;2023-06-01;19:16:58
 1685663813; buscar por productos; fin;2023-06-01;19:16:58;luis;cliente1;2023-06-01;19:16:58
+inicio de conexion;cliente1;2023-06-01;19:29:51
+1685663805; buscar por categorias; ini;1685672991; clienteluis;cliente1;2023-06-01;19:29:51
+1685663805; buscar por categorias; fin;1685672991; clienteluis;cliente1;2023-06-01;19:29:51
+1685663813; buscar por productos; ini;1685672991; clienteluis;cliente1;2023-06-01;19:29:51
+1685663813; buscar por productos; fin;1685672991; clienteluis;cliente1;2023-06-01;19:29:51
+1685673129; buscar por productos; ini;1685673131; clienteluis;cliente1;2023-06-01;19:32:11
+1685673129; buscar por productos; fin;1685673131; clienteluis;cliente1;2023-06-01;19:32:11
+1685673206; buscar por productos; ini;1685673211; clienteluis;cliente1;2023-06-01;19:33:31
+1685673206; buscar por productos; fin;1685673211; clienteluis;cliente1;2023-06-01;19:33:31
+1685673278; buscar por categorias; ini;1685673281; clienteluis;cliente1;2023-06-01;19:34:41
+1685673278; buscar por categorias; fin;1685673281; clienteluis;cliente1;2023-06-01;19:34:41
+1685673287; buscar por categorias; ini;1685673291; clienteluis;cliente1;2023-06-01;19:34:51
+1685673287; buscar por categorias; fin;1685673291; clienteluis;cliente1;2023-06-01;19:34:51
+1685673293; buscar por productos; ini;1685673296; clienteluis;cliente1;2023-06-01;19:34:56
+1685673293; buscar por productos; fin;1685673296; clienteluis;cliente1;2023-06-01;19:34:56
+1685673294; buscar por productos; ini;1685673296; clienteluis;cliente1;2023-06-01;19:34:56
+1685673294; buscar por productos; fin;1685673296; clienteluis;cliente1;2023-06-01;19:34:56
+1685673296; buscar por categorias; ini;1685673296; clienteluis;cliente1;2023-06-01;19:34:56
+1685673296; buscar por categorias; fin;1685673296; clienteluis;cliente1;2023-06-01;19:34:56
+1685673306; buscar por productos; ini;1685673311; clienteluis;cliente1;2023-06-01;19:35:11
+1685673306; buscar por productos; fin;1685673311; clienteluis;cliente1;2023-06-01;19:35:11
+1685673308; buscar por categorias; ini;1685673311; clienteluis;cliente1;2023-06-01;19:35:11
+1685673308; buscar por categorias; fin;1685673311; clienteluis;cliente1;2023-06-01;19:35:11
+1685673310; buscar por productos; ini;1685673311; clienteluis;cliente1;2023-06-01;19:35:11
+1685673310; buscar por productos; fin;1685673311; clienteluis;cliente1;2023-06-01;19:35:11
+1685673316; buscar por categorias; ini;1685673321; clienteluis;cliente1;2023-06-01;19:35:21
+1685673316; buscar por categorias; fin;1685673321; clienteluis;cliente1;2023-06-01;19:35:21
+1685673318; buscar por productos; ini;1685673321; clienteluis;cliente1;2023-06-01;19:35:21
+1685673318; buscar por productos; fin;1685673321; clienteluis;cliente1;2023-06-01;19:35:21
+1685673319; buscar por productos; ini;1685673321; clienteluis;cliente1;2023-06-01;19:35:21
+1685673319; buscar por productos; fin;1685673321; clienteluis;cliente1;2023-06-01;19:35:21
+inicio de conexion;cliente1;2023-06-01;19:39:36
+1685663805; buscar por categorias; ini;1685673576; clienteluis;cliente1;2023-06-01;19:39:36
+1685663805; buscar por categorias; fin;1685673576; clienteluis;cliente1;2023-06-01;19:39:36
+1685663813; buscar por productos; ini;1685673576; clienteluis;cliente1;2023-06-01;19:39:36
+1685663813; buscar por productos; fin;1685673576; clienteluis;cliente1;2023-06-01;19:39:36
