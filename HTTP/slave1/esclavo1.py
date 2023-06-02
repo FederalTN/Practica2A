@@ -1,13 +1,19 @@
 from flask import Flask, request, jsonify, json
 from datetime import datetime
 import logging
+from dotenv import load_dotenv
+import os
 
 app = Flask(__name__)
+load_dotenv()
 
-# Configurar el archivo de registro
-log_filename = "log_file.log"  # Nombre del archivo de registro
+# Obtener el log y path asignado al esclavo
+log_filename = os.getenv("LOG_FILE")  # Name of the log file
+log_path = os.getenv("LOG_PATH")  # Path to the log file
 
-logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime)s %(message)s', datefmt='%s;')
+# Configurar el logging
+log_file = os.path.join(log_path, log_filename)
+logging.basicConfig(filename=log_file, level=logging.INFO, format='%(asctime)s %(message)s', datefmt='%s;')
 
 
 # Desactivar los registros de los GET requests en Flask
@@ -22,7 +28,8 @@ with open("../database/database.json", "r") as file:
 
 # Aquí se inicia la aplicación Flask
 # El parámetro "port" especifica en qué puerto se ejecutará la aplicación
-app.run(port=5002, debug=True)
+slavePort = os.getenv("PORT")
+app.run(port=slavePort, debug=True)
 
 @app.route('/')
 def hello():
