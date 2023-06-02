@@ -5,6 +5,9 @@ import java.util.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.FileInputStream;
+import java.util.Properties;
+
 
 class ClienteChat {
 
@@ -26,10 +29,19 @@ class ClienteChat {
             srv.alta(c);
 
             String apodo = args[0];
-            System.out.print("Inicializado, cliente: " + apodo + "\n");
+            System.out.print("Inicializado el cliente: " + apodo + "\n");
 
-            // Ruta al archivo .log
-            String archivoLog = "../../LOGS/log_1.log";
+            // Archivo de configuracion
+            Properties prop = new Properties();
+            FileInputStream configFile = new FileInputStream("config.properties");
+            prop.load(configFile);
+            configFile.close();
+
+            // Obtener los valores de path y archivoLog desde el archivo de configuración
+            String path = prop.getProperty("path");
+            String archivoName = prop.getProperty("archivoLog");
+            String archivoLog = path + archivoName;
+            
             // 5 segundos en milisegundos
             int tiempoEspera = 5000;
             leerArchivoLog(srv, c, apodo, archivoLog, tiempoEspera);
