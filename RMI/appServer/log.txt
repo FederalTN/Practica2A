@@ -269,3 +269,71 @@ inicio de conexion;cliente1;2023-06-01;21:20:25
 1685663805; buscar por categorias; fin;1685679625; cliente1;cliente1;2023-06-01;21:20:25
 1685663813; buscar por productos; ini;1685679625; cliente1;cliente1;2023-06-01;21:20:25
 1685663813; buscar por productos; fin;1685679625; cliente1;cliente1;2023-06-01;21:20:25
+inicio de conexion;cliente1;2023-06-01;21:31:11
+1685663805; buscar por categorias; ini;1685680271; cliente1;cliente1;2023-06-01;21:31:11
+1685663805; buscar por categorias; fin;1685680271; cliente1;cliente1;2023-06-01;21:31:11
+1685663813; buscar por productos; ini;1685680271; cliente1;cliente1;2023-06-01;21:31:11
+1685663813; buscar por productos; fin;1685680271; cliente1;cliente1;2023-06-01;21:31:11
+inicio de conexion;cliente1;2023-06-01;21:35:32
+1685663805; buscar por categorias; ini;1685680533; cliente11685680533
+1685663805; buscar por categorias; fin;1685680533; cliente11685680533
+1685663813; buscar por productos; ini;1685680533; cliente11685680533
+1685663813; buscar por productos; fin;1685680533; cliente11685680533
+inicio de conexion;cliente1;2023-06-01;21:36:42
+inicio de conexion;cliente1;2023-06-01;21:37:03
+1685663805; buscar por categorias; ini;1685680623; cliente1; 1685680623
+1685663805; buscar por categorias; fin;1685680623; cliente1; 1685680623
+1685663813; buscar por productos; ini;1685680623; cliente1; 1685680623
+1685663813; buscar por productos; fin;1685680623; cliente1; 1685680623
+1685680745; buscar por categorias; fin;1685680748; cliente1; 1685680748
+1685680747; buscar por productos; ini;1685680748; cliente1; 1685680748
+1685680747; buscar por productos; fin;1685680748; cliente1; 1685680748
+1685680768; buscar por productos; ini;1685680768; cliente1; 1685680768
+1685680768; buscar por productos; fin;1685680768; cliente1; 1685680768
+1685680784; buscar por categorias; ini;1685680788; cliente1; 1685680788
+1685680784; buscar por categorias; fin;1685680788; cliente1; 1685680788
+1685680797; buscar por categorias; ini;1685680798; cliente1; 1685680798
+1685680797; buscar por categorias; fin;1685680798; cliente1; 1685680798
+1685680799; buscar por categorias; ini;1685680803; cliente1; 1685680803
+1685680799; buscar por categorias; fin;1685680803; cliente1; 1685680803
+1685680812; buscar por productos; ini;1685680813; cliente1; 1685680813
+1685680812; buscar por productos; fin;1685680813; cliente1; 1685680813
+1685680816; buscar por productos; ini;1685680818; cliente1; 1685680818
+1685680816; buscar por productos; fin;1685680818; cliente1; 1685680818
+inicio de conexion;cliente1;2023-06-01;21:41:44
+1685663805; buscar por categorias; ini; 1685680904; cliente1; 1685680904
+1685663805; buscar por categorias; fin; 1685680904; cliente1; 1685680904
+1685663813; buscar por productos; ini; 1685680904; cliente1; 1685680904
+1685663813; buscar por productos; fin1685680745; buscar por categorias; ini; 1685680904; cliente1; 1685680904
+1685680745; buscar por categorias; fin; 1685680904; cliente1; 1685680904
+1685680747; buscar por productos; ini; 1685680904; cliente1; 1685680904
+1685680747; buscar por productos; fin; 1685680904; cliente1; 1685680904
+1685680768; buscar por productos; ini; 1685680904; cliente1; 1685680904
+1685680768; buscar por productos; fin; 1685680904; cliente1; 1685680904
+1685680784; buscar por categorias; ini; 1685680904; cliente1; 1685680904
+1685680784; buscar por categorias; fin; 1685680904; cliente1; 1685680904
+1685680797; buscar por categorias; ini; 1685680904; cliente1; 1685680904
+1685680797; buscar por categorias; fin; 1685680904; cliente1; 1685680904
+1685680799; buscar por categorias; ini; 1685680904; cliente1; 1685680904
+1685680799; buscar por categorias; fin; 1685680904; cliente1; 1685680904
+1685680812; buscar por productos; ini; 1685680904; cliente1; 1685680904
+1685680812; buscar por productos; fin; 1685680904; cliente1; 1685680904
+1685680816; buscar por productos; ini; 1685680904; cliente1; 1685680904
+1685680816; buscar por productos; fin; 1685680904; cliente1; 1685680904
+inicio de conexion;cliente1;2023-06-01;21:44:21
+1685681033; buscar por productos; ini; 1685681061; cliente1; 1685681061
+1685681033; buscar por productos; fin; 1685681061; cliente1; 1685681061
+1685681036; buscar por categorias; ini; 1685681061; cliente1; 1685681061
+1685681036; buscar por categorias; fin; 1685681061; cliente1; 1685681061
+1685681068; buscar por categorias; ini; 1685681071; cliente1; 1685681071
+1685681068; buscar por categorias; fin; 1685681071; cliente1; 1685681071
+1685681069; buscar por categorias; ini; 1685681071; cliente1; 1685681071
+1685681069; buscar por categorias; fin; 1685681071; cliente1; 1685681071
+1685681089; buscar por categorias; ini; 1685681091; cliente1; 1685681091
+1685681089; buscar por categorias; fin; 1685681091; cliente1; 1685681091
+1685681091; buscar por productos; ini; 1685681091; cliente1; 1685681091
+1685681091; buscar por productos; fin; 1685681091; cliente1; 1685681091
+1685681092; buscar por productos; ini; 1685681096; cliente1; 1685681096
+1685681092; buscar por productos; fin; 1685681096; cliente1; 1685681096
+1685681094; buscar por categorias; ini; 1685681096; cliente1; 1685681096
+1685681094; buscar por categorias; fin; 1685681096; cliente1; 1685681096

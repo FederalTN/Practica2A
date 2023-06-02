@@ -63,11 +63,9 @@ class ClienteScanner {
 
                 String linea;
                 while ((linea = br.readLine()) != null) {
-                    // Registro correlativo
-                    int numeroCorrelativo = srv.numeroCorrelativoActual();
                     // Registro timestamp
                     long timestamp = System.currentTimeMillis() / 1000;
-                    String mensajeRegistro = linea + ";" + timestamp + "; cliente" + nombreCliente;
+                    String mensajeRegistro = linea + "; " + timestamp + "; cliente" + nombreCliente;
                     // Envío de mensaje
                     srv.envio(cliente, nombreCliente, mensajeRegistro);
                     System.out.println(mensajeRegistro);

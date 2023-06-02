@@ -57,14 +57,11 @@ class ServicioChatImpl implements ServicioChat {
     }
 
     public void envio(Cliente esc, String apodo, String m) throws RemoteException {
-        int id = l.indexOf(esc) + 1;
-        // Distinciòn cliente
-        Date fecha = new Date();
-        SimpleDateFormat formatoFecha = new SimpleDateFormat("yyyy-MM-dd;HH:mm:ss");
-        String fechaFormateada = formatoFecha.format(fecha);
-        String registroServidor = ";cliente" + id + ";" + fechaFormateada;
+        // Timestamp recepcion
+        long timestamp = System.currentTimeMillis() / 1000;
+
         // Acciòn Cliente
-        String log = m + registroServidor;
+        String log = m + "; "+timestamp;
         System.out.println(log);
         // Guardar registro en archivo
         FileWriter fw;
