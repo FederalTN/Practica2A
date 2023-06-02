@@ -53,6 +53,7 @@ class ClienteScanner {
         }
     }
 
+    // Lee el archivo log para enviar la informacion al log centralizado
     private static void leerArchivoLog(ServicioChat srv, ClienteImpl cliente, String nombreCliente, String archivoLog, int tiempoEspera, long ultimaLineaLeida, Properties prop) throws RemoteException {
         while (true) {
             try (BufferedReader br = new BufferedReader(new FileReader(archivoLog))) {

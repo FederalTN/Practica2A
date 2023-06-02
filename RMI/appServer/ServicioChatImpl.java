@@ -18,12 +18,15 @@ class ServicioChatImpl implements ServicioChat {
         int id = l.indexOf(c) + 1;
         // timestamp de conexion
         long timestamp = System.currentTimeMillis() / 1000;
+
+        // Registro
         String registro = "inicio de conexion;cliente" + id + "; " + timestamp;
         System.out.println(registro);
+
         // Guardar registro en archivo
         FileWriter fw;
         try {
-            fw = new FileWriter("log.txt", true); // true indica que se agregará al final del archivo
+            fw = new FileWriter("logCentralizado.txt", true); // true indica que se agregará al final del archivo
             fw.write(registro + "\n"); // agregar salto de línea para separar registros
             fw.close();
         } catch (IOException e) {
@@ -37,12 +40,14 @@ class ServicioChatImpl implements ServicioChat {
         l.remove(c);
         // timestamp de desconexion
         long timestamp = System.currentTimeMillis() / 1000;
-        String registro = "fin de conexion;cliente" + id + ";" + timestamp;
+
+        // Registro
+        String registro = "fin de conexion;cliente" + id + "; " + timestamp;
         System.out.println(registro);
         // Guardar registro en archivo
         FileWriter fw;
         try {
-            fw = new FileWriter("log.txt", true); // true indica que se agregará al final del archivo
+            fw = new FileWriter("logCentralizado.txt", true); // true indica que se agregará al final del archivo
             fw.write(registro + "\n"); // agregar salto de línea para separar registros
             fw.close();
         } catch (IOException e) {
@@ -60,7 +65,7 @@ class ServicioChatImpl implements ServicioChat {
         // Guardar registro en archivo
         FileWriter fw;
         try {
-            fw = new FileWriter("log.txt", true); // true indica que se agregará al final del archivo
+            fw = new FileWriter("logCentralizado.txt", true); // true indica que se agregará al final del archivo
             fw.write(log + "\n"); // agregar salto de línea para separar registros
             fw.close();
         } catch (IOException e) {

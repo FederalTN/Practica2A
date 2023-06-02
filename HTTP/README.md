@@ -11,10 +11,31 @@ Flask    -> pip3 install flask
 
 requests -> pip3 install requests
 
+--CONFIG .env--
+
+-CONFIG ESCLAVOS
+
+El archivo .env de los slaves tendra el siguiente formato:
+
+LOG_FILE=(nombrelog).log    / nombre que tendran los archivos .log del esclavo
+LOG_PATH=../../LOGS/        / path de los archivos log
+PORT=(PUERTO A USAR)        / puerto que usara el esclavo
+
+-CONFIG MASTER
+
+EL archivo .env del master tendra el siguiente formato:
+
+ESCLAVOS="http://localhost:(PUERTOESCLAVO1),
+http://localhost:(PUERTOESCLAVO2),
+http://localhost:(PUERTOESCLAVO3),
+.
+.
+http://localhost:(PUERTOESCLAVON)"
+
 
 ~~ORDEN DE EJECUCION~~
 
-~EJECUTAR ESCLAVOS
+~EJECUTAR ESCLAVOS (abrir terminales diferentes)
 
 cd slave1
 export FLASK_APP=esclavo1.py
