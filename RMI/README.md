@@ -20,7 +20,7 @@ javac ServidorChat.java
 
 cd ..
 cd appClient
-javac ClienteChat.java
+javac ClienteScanner.java
 ```
 
 2) copiar appServer/cliente.class, appServer/clienteImp.class y appServer/ServicioChat.class a appClient
@@ -46,13 +46,13 @@ java ServidorChat
 
 ```
 cd appClient
-java ClienteChat luis
+java ClienteScanner luis
 ```
 6) en la consola(4) ejecutar el cliente del chat, ingresar tu apodo y luego enviar mensajes
 
 ```
 cd appClient
-java ClienteChat maria
+java ClienteScanner maria
 ```
 
-Nota: en este caso particular puede generar tantas instancias de "java ClienteChat xxxx" como participantes en el chat quiera simular
+Nota: en este caso particular puede generar tantas instancias de "java ClienteScanner xxxx" como participantes en el chat quiera simular

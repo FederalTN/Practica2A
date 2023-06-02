@@ -9,13 +9,13 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 
-class ClienteChat {
+class ClienteScanner {
 
     private static final int PORT = 4002;
 
     static public void main(String args[]) {
         if (args.length != 1) {
-            System.err.println("Uso: ClienteChat apodo");
+            System.err.println("Uso: ClienteScanner codigoCliente");
             return;
         }
 
@@ -41,7 +41,7 @@ class ClienteChat {
             String path = prop.getProperty("path");
             String archivoName = prop.getProperty("archivoLog");
             String archivoLog = path + archivoName;
-            
+
             // 5 segundos en milisegundos
             int tiempoEspera = 5000;
             leerArchivoLog(srv, c, apodo, archivoLog, tiempoEspera);

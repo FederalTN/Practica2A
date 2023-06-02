@@ -128,3 +128,8 @@ inicio de conexion;cliente1;2023-06-01;20:06:57
 1685663805; buscar por categorias; fin;1685675217; clienteluis;cliente1;2023-06-01;20:06:57
 1685663813; buscar por productos; ini;1685675217; clienteluis;cliente1;2023-06-01;20:06:57
 1685663813; buscar por productos; fin;1685675217; clienteluis;cliente1;2023-06-01;20:06:57
+inicio de conexion;cliente1;2023-06-01;20:34:52
+1685663805; buscar por categorias; ini;1685676892; cliente1;cliente1;2023-06-01;20:34:52
+1685663805; buscar por categorias; fin;1685676892; cliente1;cliente1;2023-06-01;20:34:52
+1685663813; buscar por productos; ini;1685676892; cliente1;cliente1;2023-06-01;20:34:52
+1685663813; buscar por productos; fin;1685676892; cliente1;cliente1;2023-06-01;20:34:52
