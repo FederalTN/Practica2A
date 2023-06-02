@@ -56,7 +56,7 @@ class ClienteScanner {
     private static void leerArchivoLog(ServicioChat srv, ClienteImpl cliente, String nombreCliente, String archivoLog, int tiempoEspera, long ultimaLineaLeida, Properties prop) throws RemoteException {
         while (true) {
             try (BufferedReader br = new BufferedReader(new FileReader(archivoLog))) {
-                // Saltar las líneas previamente leídas
+                // Saltar las líneas previamente leídas usando la memoria del archivo configuracion
                 for (long i = 0; i < ultimaLineaLeida; i++) {
                     br.readLine();
                 }

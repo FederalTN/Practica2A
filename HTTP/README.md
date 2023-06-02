@@ -55,6 +55,6 @@ http://localhost:5001/query?productos=pantalon+camisa
 
 http://localhost:5001/query?categorias=ropa+calzado
 
-http://localhost:5001/query?categorias=ropa+calzado+mobiliaria+domestico+accesorios
+http://localhost:5001/query?categorias=ropa+calzado+mobiliaria+domestico+accesorios+computacion
 
 http://localhost:5001/query?productos=pantalon+camisa+zapatos+sombrero+lenovo+hp+mueble+silla
