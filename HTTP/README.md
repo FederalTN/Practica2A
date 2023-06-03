@@ -20,7 +20,9 @@ dotenv   -> pip install python-dotenv     (Alternativa)     pip3 install dotenv
 El archivo .env de los slaves tendra el siguiente formato:
 
 LOG_FILE=(nombrelog).log    / nombre que tendran los archivos .log del esclavo
+
 LOG_PATH=../../LOGS/        / path de los archivos log
+
 PORT=(PUERTO A USAR)        / puerto que usara el esclavo
 
 -CONFIG MASTER
