@@ -1,4 +1,4 @@
-~~~~BUSCADOR DE RETAIL DISTRIBUIDO~~~~
+----BUSCADOR DE RETAIL DISTRIBUIDO----
 
 Instalacion en orden para las dependencias( LINUX-UBUNTU ):
 
