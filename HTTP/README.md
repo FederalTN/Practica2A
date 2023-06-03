@@ -26,16 +26,16 @@ PORT=(PUERTO A USAR)        / puerto que usara el esclavo
 -CONFIG MASTER
 
 EL archivo .env del master tendra el siguiente formato:
-
+```
 ESCLAVOS="http://localhost:(PUERTOESCLAVO1),
 http://localhost:(PUERTOESCLAVO2),
 http://localhost:(PUERTOESCLAVO3),
 .
 .
 http://localhost:(PUERTOESCLAVON)"
+```
 
-
-~~ORDEN DE EJECUCION~~
+--ORDEN DE EJECUCION--
 
 ~EJECUTAR ESCLAVOS (abrir terminales diferentes)
 ```
