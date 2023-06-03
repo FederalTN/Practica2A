@@ -55,10 +55,9 @@ cd appClient3
 
 javac ClienteScanner.java
 
-```
-
 (opcional en caso de que se escale los slaves)
 
+```
 cd ..
 
 cd appClient4

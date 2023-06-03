@@ -38,7 +38,7 @@ http://localhost:(PUERTOESCLAVON)"
 ~~ORDEN DE EJECUCION~~
 
 ~EJECUTAR ESCLAVOS (abrir terminales diferentes)
-
+```
 cd slave1
 export FLASK_APP=esclavo1.py
 flask run --port=5002
@@ -50,10 +50,10 @@ flask run --port=5003
 cd slave3
 export FLASK_APP=esclavo3.py
 flask run --port=5004
-
+```
 
 ~EJECUTAR ESCLAVOS EXTRA
-
+```
 cd slave4
 export FLASK_APP=esclavo4.py
 flask run --port=5005
@@ -63,13 +63,13 @@ flask run --port=5005
 cd slaven
 export FLASK_APP=esclavo(n).py
 flask run --port=500(n+1)
-
+```
 ~EJECUTAR MAESTRO
-
+```
 cd master
 export FLASK_APP=app
 flask run -p 5001
-
+```
 si no se agrega el "-p 5001", por defecto corre en el puerto 5000
 
 ~CONSULTAS RELEVANTES
