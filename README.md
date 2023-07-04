@@ -18,3 +18,29 @@ luego cada 5 segundos cada cliente escanea un archivo log asignado en config, ma
 Formato de los log de busqueda:
 
 timestamp(esclavo); nombre de función; inicio o fin según corresponda; timestamp(RMIclient); nombre cliente RMI; timestamp (logCentralizado)
+
+
+excel
+
+https://docs.google.com/spreadsheets/d/1PV2GNYjxRvBUISbNzobZt0cxE3fzbOPv26CBV93WyR4/edit#gid=0
+
+chatgpt
+
+https://chat.openai.com/share/47384a47-2ff2-49e5-b717-4ca2debd6417
+
+pptx
+
+https://docs.google.com/presentation/d/1atJaqJfLb1QQOmbWB0JUmuxi0_-I8BxrcQy2Ffpgfn0/edit?usp=sharing
+
+video riesgos
+
+https://www.youtube.com/watch?v=qYWBhFbN-zs
+
+ejercicio caso de uso
+
+https://docs.google.com/document/d/1ukQwKOTW2MEvtoR2kw3DEyaAUljtlFiMtWDJVwoQXyA/edit
+
+los kbros
+
+https://docs.google.com/document/d/13fbaUQpOHVv4bbhuKazWeik-pLEk5yQuACHHFSU1sMA/edit?pli=1
+
