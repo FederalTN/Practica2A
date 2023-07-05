@@ -44,3 +44,10 @@ los kbros
 
 https://docs.google.com/document/d/13fbaUQpOHVv4bbhuKazWeik-pLEk5yQuACHHFSU1sMA/edit?pli=1
 
+desarrollo caso de uso licitacion
+
+https://docs.google.com/document/d/1QuCikhXvDRhtNlyghx_JjpUQ4Uy25kWb5mnlxnqgB1s/edit?usp=sharing
+
+excel editable
+
+https://docs.google.com/spreadsheets/d/1EPgkZT-QxjTBY9BvK8NFBvRp49xWLsuGGUnfxiaWpkY/edit?usp=sharing
