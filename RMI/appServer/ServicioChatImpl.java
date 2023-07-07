@@ -7,9 +7,11 @@ import java.util.*;
 
 class ServicioChatImpl implements ServicioChat {
     private List<Cliente> l;
+    private String clavePrivada;
 
-    ServicioChatImpl() throws RemoteException {
+    ServicioChatImpl(String clavePrivada) throws RemoteException {
         l = new LinkedList<Cliente>();
+        this.clavePrivada = clavePrivada;
     }
 
     // Conexion con el cliente
@@ -60,7 +62,7 @@ class ServicioChatImpl implements ServicioChat {
         long timestamp = System.currentTimeMillis() / 1000;
 
         // Acciòn Cliente
-        String log = m + "; " + timestamp;
+        String log = desencriptarMensaje(m, clavePrivada) + "; " + timestamp;
         System.out.println(log);
         // Guardar registro en archivo
         FileWriter fw;
@@ -72,4 +74,15 @@ class ServicioChatImpl implements ServicioChat {
             e.printStackTrace();
         }
     }
+
+    private static String desencriptarMensaje(String mensajeEncriptado, String clavePrivada) {
+        StringBuilder mensajeDesencriptado = new StringBuilder();
+        for (int i = 0; i < mensajeEncriptado.length(); i++) {
+            int caracterEncriptado = mensajeEncriptado.charAt(i);
+            int caracterClave = clavePrivada.charAt(i % clavePrivada.length());
+            int caracterDesencriptado = (caracterEncriptado - caracterClave + 256) % 256;
+            mensajeDesencriptado.append((char) caracterDesencriptado);
+        }
+        return mensajeDesencriptado.toString();
+}
 }
