@@ -3,6 +3,7 @@ from datetime import datetime
 import logging
 from dotenv import load_dotenv
 import os
+import uuid
 
 app = Flask(__name__)
 load_dotenv()
@@ -13,7 +14,7 @@ log_path = os.getenv("LOG_PATH")  # Path to the log file
 
 # Configurar el logging
 log_file = os.path.join(log_path, log_filename)
-logging.basicConfig(filename=log_file, level=logging.INFO, format='%(asctime)s %(message)s', datefmt='%s;')
+logging.basicConfig(filename=log_file, level=logging.INFO, format='%(message)s')
 
 
 # Desactivar los registros de los GET requests en Flask
@@ -33,7 +34,7 @@ app.run(port=slavePort, debug=True)
 
 @app.route('/')
 def hello():
-    return 'Hola, soy el esclavo 1!'
+    return 'Hola, soy un esclavo!'
 
 # La ruta "/query" activará la función getProductsQuery()
 @app.route('/query', methods=['GET']) 
@@ -48,11 +49,17 @@ def getProductsQuery():
         else:
             consultas = request.args['productos']
             itemDeseado = 'pname'
-        # Registrar el inicio de la función de búsqueda en el archivo de registro
-        log_message = f"buscar por {list(request.args.keys())[0]}; ini"
-        logging.info(log_message)
-
         
+        # uuid
+        uuidVal = str(uuid.uuid1())
+
+        # Timestamp ini
+        timestamp = str(int(datetime.now().timestamp()))
+
+        # Registrar el inicio de la función de búsqueda en el archivo de registro
+        log_message = f"; buscar por {list(request.args.keys())[0]}; ini"
+        logging.info(uuidVal + "; " + timestamp + log_message)
+
         # Convertir la consulta en una lista
         consultas_list = consultas.split()
 
@@ -63,9 +70,12 @@ def getProductsQuery():
                 if consulta.lower() in item[itemDeseado].lower():
                     results.append(item)
         
+        # Timestamp fin
+        timestamp = str(int(datetime.now().timestamp()))
+
         # Registrar el fin de la función de búsqueda en el archivo de registro
-        log_message = f"buscar por {list(request.args.keys())[0]}; fin"
-        logging.info(log_message)
+        log_message = f"; buscar por {list(request.args.keys())[0]}; fin"
+        logging.info(uuidVal + "; " + timestamp + log_message)
 
         # Devolver los resultados
         return {"results": results}
