@@ -1,0 +1,3004 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "pname": "camisa",
+            "price": 20,
+            "categoria": "ropa"
+        },
+        {
+            "id": 2,
+            "pname": "pantalon",
+            "price": 30,
+            "categoria": "ropa"
+        },
+        {
+            "id": 3,
+            "pname": "calcetines",
+            "price": 5,
+            "categoria": "calzado"
+        },
+        {
+            "id": 4,
+            "pname": "zapatos",
+            "price": 50,
+            "categoria": "calzado"
+        },
+        {
+            "id": 5,
+            "pname": "lenovo",
+            "price": 10,
+            "categoria": "computacion"
+        },
+        {
+            "id": 6,
+            "pname": "hp",
+            "price": 15,
+            "categoria": "computacion"
+        },
+        {
+            "id": 7,
+            "pname": "mueble",
+            "price": 25,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 8,
+            "pname": "silla",
+            "price": 40,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 9,
+            "pname": "microondas",
+            "price": 45,
+            "categoria": "domestico"
+        },
+        {
+            "id": 10,
+            "pname": "licuadora",
+            "price": 60,
+            "categoria": "domestico"
+        },
+        {
+            "id": 11,
+            "pname": "reloj",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 12,
+            "pname": "sombrero",
+            "price": 15,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 13,
+            "pname": "telefono",
+            "price": 300,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 14,
+            "pname": "auriculares",
+            "price": 50,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 15,
+            "pname": "cama",
+            "price": 200,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 16,
+            "pname": "mesa",
+            "price": 100,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 17,
+            "pname": "tenedor",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 18,
+            "pname": "olla",
+            "price": 30,
+            "categoria": "cocina"
+        },
+        {
+            "id": 19,
+            "pname": "toalla",
+            "price": 10,
+            "categoria": "bano"
+        },
+        {
+            "id": 20,
+            "pname": "jabon",
+            "price": 5,
+            "categoria": "bano"
+        },
+        {
+            "id": 21,
+            "pname": "botas",
+            "price": 70,
+            "categoria": "calzado"
+        },
+        {
+            "id": 22,
+            "pname": "sandalias",
+            "price": 25,
+            "categoria": "calzado"
+        },
+        {
+            "id": 23,
+            "pname": "cartera",
+            "price": 50,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 24,
+            "pname": "maletin",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 25,
+            "pname": "aspiradora",
+            "price": 100,
+            "categoria": "domestico"
+        },
+        {
+            "id": 26,
+            "pname": "chaqueta",
+            "price": 35,
+            "categoria": "ropa"
+        },
+        {
+            "id": 27,
+            "pname": "gorra",
+            "price": 10,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 28,
+            "pname": "monitor",
+            "price": 150,
+            "categoria": "computacion"
+        },
+        {
+            "id": 29,
+            "pname": "escritorio",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 30,
+            "pname": "almohada",
+            "price": 15,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 31,
+            "pname": "batidora",
+            "price": 40,
+            "categoria": "domestico"
+        },
+        {
+            "id": 32,
+            "pname": "refrigerador",
+            "price": 500,
+            "categoria": "domestico"
+        },
+        {
+            "id": 33,
+            "pname": "estufa",
+            "price": 200,
+            "categoria": "domestico"
+        },
+        {
+            "id": 34,
+            "pname": "plato",
+            "price": 3,
+            "categoria": "cocina"
+        },
+        {
+            "id": 35,
+            "pname": "vaso",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 36,
+            "pname": "cepillo",
+            "price": 4,
+            "categoria": "bano"
+        },
+        {
+            "id": 37,
+            "pname": "espejo",
+            "price": 30,
+            "categoria": "bano"
+        },
+        {
+            "id": 38,
+            "pname": "iphone",
+            "price": 900,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 39,
+            "pname": "teclado",
+            "price": 60,
+            "categoria": "computacion"
+        },
+        {
+            "id": 40,
+            "pname": "mesilla",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 41,
+            "pname": "sillon",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 42,
+            "pname": "tostadora",
+            "price": 25,
+            "categoria": "domestico"
+        },
+        {
+            "id": 43,
+            "pname": "plancha",
+            "price": 35,
+            "categoria": "domestico"
+        },
+        {
+            "id": 44,
+            "pname": "cuchillo",
+            "price": 8,
+            "categoria": "cocina"
+        },
+        {
+            "id": 45,
+            "pname": "cuchara",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 46,
+            "pname": "jabonera",
+            "price": 5,
+            "categoria": "bano"
+        },
+        {
+            "id": 47,
+            "pname": "perfume",
+            "price": 70,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 48,
+            "pname": "billetera",
+            "price": 20,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 49,
+            "pname": "tableta",
+            "price": 200,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 50,
+            "pname": "raton",
+            "price": 30,
+            "categoria": "computacion"
+        },
+        {
+            "id": 51,
+            "pname": "espejo de cuerpo entero",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 52,
+            "pname": "cojin",
+            "price": 12,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 53,
+            "pname": "horno",
+            "price": 250,
+            "categoria": "domestico"
+        },
+        {
+            "id": 54,
+            "pname": "lavadora",
+            "price": 400,
+            "categoria": "domestico"
+        },
+        {
+            "id": 55,
+            "pname": "secadora",
+            "price": 350,
+            "categoria": "domestico"
+        },
+        {
+            "id": 56,
+            "pname": "televisor",
+            "price": 600,
+            "categoria": "domestico"
+        },
+        {
+            "id": 57,
+            "pname": "manta",
+            "price": 30,
+            "categoria": "ropa"
+        },
+        {
+            "id": 58,
+            "pname": "pantalones cortos",
+            "price": 25,
+            "categoria": "ropa"
+        },
+        {
+            "id": 59,
+            "pname": "vestido",
+            "price": 50,
+            "categoria": "ropa"
+        },
+        {
+            "id": 60,
+            "pname": "chaqueta de cuero",
+            "price": 120,
+            "categoria": "ropa"
+        },
+        {
+            "id": 61,
+            "pname": "zapatillas deportivas",
+            "price": 80,
+            "categoria": "calzado"
+        },
+        {
+            "id": 62,
+            "pname": "sandalias de playa",
+            "price": 20,
+            "categoria": "calzado"
+        },
+        {
+            "id": 63,
+            "pname": "zuecos",
+            "price": 40,
+            "categoria": "calzado"
+        },
+        {
+            "id": 64,
+            "pname": "botas de lluvia",
+            "price": 60,
+            "categoria": "calzado"
+        },
+        {
+            "id": 65,
+            "pname": "laptop",
+            "price": 800,
+            "categoria": "computacion"
+        },
+        {
+            "id": 66,
+            "pname": "tablet",
+            "price": 300,
+            "categoria": "computacion"
+        },
+        {
+            "id": 67,
+            "pname": "impresora",
+            "price": 150,
+            "categoria": "computacion"
+        },
+        {
+            "id": 68,
+            "pname": "escaner",
+            "price": 100,
+            "categoria": "computacion"
+        },
+        {
+            "id": 69,
+            "pname": "escritorio de oficina",
+            "price": 250,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 70,
+            "pname": "estanteria",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 71,
+            "pname": "sofa",
+            "price": 500,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 72,
+            "pname": "mesa de centro",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 73,
+            "pname": "plato hondo",
+            "price": 4,
+            "categoria": "cocina"
+        },
+        {
+            "id": 74,
+            "pname": "sarten",
+            "price": 20,
+            "categoria": "cocina"
+        },
+        {
+            "id": 75,
+            "pname": "tostadora de pan",
+            "price": 30,
+            "categoria": "cocina"
+        },
+        {
+            "id": 76,
+            "pname": "cafetera",
+            "price": 50,
+            "categoria": "cocina"
+        },
+        {
+            "id": 77,
+            "pname": "toallas de mano",
+            "price": 8,
+            "categoria": "bano"
+        },
+        {
+            "id": 78,
+            "pname": "alfombra de bano",
+            "price": 15,
+            "categoria": "bano"
+        },
+        {
+            "id": 79,
+            "pname": "jabon liquido",
+            "price": 6,
+            "categoria": "bano"
+        },
+        {
+            "id": 80,
+            "pname": "crema hidratante",
+            "price": 12,
+            "categoria": "bano"
+        },
+        {
+            "id": 81,
+            "pname": "anillo",
+            "price": 100,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 82,
+            "pname": "collar",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 83,
+            "pname": "gafas de sol",
+            "price": 70,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 84,
+            "pname": "bolsa de viaje",
+            "price": 150,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 85,
+            "pname": "smartphone",
+            "price": 1000,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 86,
+            "pname": "cargador portatil",
+            "price": 50,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 87,
+            "pname": "base de carga inalambrica",
+            "price": 30,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 88,
+            "pname": "auriculares inalambricos",
+            "price": 100,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 89,
+            "pname": "aspiradora robot",
+            "price": 200,
+            "categoria": "domestico"
+        },
+        {
+            "id": 90,
+            "pname": "ventilador",
+            "price": 60,
+            "categoria": "domestico"
+        },
+        {
+            "id": 91,
+            "pname": "plancha de vapor",
+            "price": 40,
+            "categoria": "domestico"
+        },
+        {
+            "id": 92,
+            "pname": "asador de carne",
+            "price": 150,
+            "categoria": "domestico"
+        },
+        {
+            "id": 93,
+            "pname": "abrigo",
+            "price": 90,
+            "categoria": "ropa"
+        },
+        {
+            "id": 94,
+            "pname": "falda",
+            "price": 35,
+            "categoria": "ropa"
+        },
+        {
+            "id": 95,
+            "pname": "gorro de lana",
+            "price": 15,
+            "categoria": "ropa"
+        },
+        {
+            "id": 96,
+            "pname": "chaqueta impermeable",
+            "price": 70,
+            "categoria": "ropa"
+        },
+        {
+            "id": 97,
+            "pname": "botines",
+            "price": 80,
+            "categoria": "calzado"
+        },
+        {
+            "id": 98,
+            "pname": "zapatillas de deporte",
+            "price": 100,
+            "categoria": "calzado"
+        },
+        {
+            "id": 99,
+            "pname": "botas de montana",
+            "price": 120,
+            "categoria": "calzado"
+        },
+        {
+            "id": 100,
+            "pname": "sandalias de cuero",
+            "price": 60,
+            "categoria": "calzado"
+        },
+        {
+            "id": 101,
+            "pname": "camisa1",
+            "price": 20,
+            "categoria": "ropa"
+        },
+        {
+            "id": 102,
+            "pname": "pantalon2",
+            "price": 30,
+            "categoria": "ropa"
+        },
+        {
+            "id": 103,
+            "pname": "calcetines3",
+            "price": 5,
+            "categoria": "calzado"
+        },
+        {
+            "id": 104,
+            "pname": "zapatos4",
+            "price": 50,
+            "categoria": "calzado"
+        },
+        {
+            "id": 105,
+            "pname": "lenovo5",
+            "price": 10,
+            "categoria": "computacion"
+        },
+        {
+            "id": 106,
+            "pname": "hp6",
+            "price": 15,
+            "categoria": "computacion"
+        },
+        {
+            "id": 107,
+            "pname": "mueble7",
+            "price": 25,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 108,
+            "pname": "silla8",
+            "price": 40,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 109,
+            "pname": "microondas9",
+            "price": 45,
+            "categoria": "domestico"
+        },
+        {
+            "id": 110,
+            "pname": "licuadora10",
+            "price": 60,
+            "categoria": "domestico"
+        },
+        {
+            "id": 111,
+            "pname": "reloj11",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 112,
+            "pname": "sombrero12",
+            "price": 15,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 113,
+            "pname": "telefono13",
+            "price": 300,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 114,
+            "pname": "auriculares14",
+            "price": 50,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 115,
+            "pname": "cama15",
+            "price": 200,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 116,
+            "pname": "mesa16",
+            "price": 100,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 117,
+            "pname": "tenedor17",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 118,
+            "pname": "olla18",
+            "price": 30,
+            "categoria": "cocina"
+        },
+        {
+            "id": 119,
+            "pname": "toalla19",
+            "price": 10,
+            "categoria": "bano"
+        },
+        {
+            "id": 120,
+            "pname": "jabon20",
+            "price": 5,
+            "categoria": "bano"
+        },
+        {
+            "id": 121,
+            "pname": "botas21",
+            "price": 70,
+            "categoria": "calzado"
+        },
+        {
+            "id": 122,
+            "pname": "sandalias22",
+            "price": 25,
+            "categoria": "calzado"
+        },
+        {
+            "id": 123,
+            "pname": "cartera23",
+            "price": 50,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 124,
+            "pname": "maletin24",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 125,
+            "pname": "aspiradora25",
+            "price": 100,
+            "categoria": "domestico"
+        },
+        {
+            "id": 126,
+            "pname": "chaqueta26",
+            "price": 35,
+            "categoria": "ropa"
+        },
+        {
+            "id": 127,
+            "pname": "gorra27",
+            "price": 10,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 128,
+            "pname": "monitor28",
+            "price": 150,
+            "categoria": "computacion"
+        },
+        {
+            "id": 129,
+            "pname": "escritorio29",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 130,
+            "pname": "almohada30",
+            "price": 15,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 131,
+            "pname": "batidora31",
+            "price": 40,
+            "categoria": "domestico"
+        },
+        {
+            "id": 132,
+            "pname": "refrigerador32",
+            "price": 500,
+            "categoria": "domestico"
+        },
+        {
+            "id": 133,
+            "pname": "estufa33",
+            "price": 200,
+            "categoria": "domestico"
+        },
+        {
+            "id": 134,
+            "pname": "plato34",
+            "price": 3,
+            "categoria": "cocina"
+        },
+        {
+            "id": 135,
+            "pname": "vaso35",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 136,
+            "pname": "cepillo36",
+            "price": 4,
+            "categoria": "bano"
+        },
+        {
+            "id": 137,
+            "pname": "espejo37",
+            "price": 30,
+            "categoria": "bano"
+        },
+        {
+            "id": 138,
+            "pname": "iphone38",
+            "price": 900,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 139,
+            "pname": "teclado39",
+            "price": 60,
+            "categoria": "computacion"
+        },
+        {
+            "id": 140,
+            "pname": "mesilla40",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 141,
+            "pname": "sillon41",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 142,
+            "pname": "tostadora42",
+            "price": 25,
+            "categoria": "domestico"
+        },
+        {
+            "id": 143,
+            "pname": "plancha43",
+            "price": 35,
+            "categoria": "domestico"
+        },
+        {
+            "id": 144,
+            "pname": "cuchillo44",
+            "price": 8,
+            "categoria": "cocina"
+        },
+        {
+            "id": 145,
+            "pname": "cuchara45",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 146,
+            "pname": "jabonera46",
+            "price": 5,
+            "categoria": "bano"
+        },
+        {
+            "id": 147,
+            "pname": "perfume47",
+            "price": 70,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 148,
+            "pname": "billetera48",
+            "price": 20,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 149,
+            "pname": "tableta49",
+            "price": 200,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 150,
+            "pname": "raton50",
+            "price": 30,
+            "categoria": "computacion"
+        },
+        {
+            "id": 151,
+            "pname": "espejo de cuerpo entero51",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 152,
+            "pname": "cojin52",
+            "price": 12,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 153,
+            "pname": "horno53",
+            "price": 250,
+            "categoria": "domestico"
+        },
+        {
+            "id": 154,
+            "pname": "lavadora54",
+            "price": 400,
+            "categoria": "domestico"
+        },
+        {
+            "id": 155,
+            "pname": "secadora55",
+            "price": 350,
+            "categoria": "domestico"
+        },
+        {
+            "id": 156,
+            "pname": "televisor56",
+            "price": 600,
+            "categoria": "domestico"
+        },
+        {
+            "id": 157,
+            "pname": "manta57",
+            "price": 30,
+            "categoria": "ropa"
+        },
+        {
+            "id": 158,
+            "pname": "pantalones cortos58",
+            "price": 25,
+            "categoria": "ropa"
+        },
+        {
+            "id": 159,
+            "pname": "vestido59",
+            "price": 50,
+            "categoria": "ropa"
+        },
+        {
+            "id": 160,
+            "pname": "chaqueta de cuero60",
+            "price": 120,
+            "categoria": "ropa"
+        },
+        {
+            "id": 161,
+            "pname": "zapatillas deportivas61",
+            "price": 80,
+            "categoria": "calzado"
+        },
+        {
+            "id": 162,
+            "pname": "sandalias de playa62",
+            "price": 20,
+            "categoria": "calzado"
+        },
+        {
+            "id": 163,
+            "pname": "zuecos63",
+            "price": 40,
+            "categoria": "calzado"
+        },
+        {
+            "id": 164,
+            "pname": "botas de lluvia64",
+            "price": 60,
+            "categoria": "calzado"
+        },
+        {
+            "id": 165,
+            "pname": "laptop65",
+            "price": 800,
+            "categoria": "computacion"
+        },
+        {
+            "id": 166,
+            "pname": "tablet66",
+            "price": 300,
+            "categoria": "computacion"
+        },
+        {
+            "id": 167,
+            "pname": "impresora67",
+            "price": 150,
+            "categoria": "computacion"
+        },
+        {
+            "id": 168,
+            "pname": "escaner68",
+            "price": 100,
+            "categoria": "computacion"
+        },
+        {
+            "id": 169,
+            "pname": "escritorio de oficina69",
+            "price": 250,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 170,
+            "pname": "estanteria70",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 171,
+            "pname": "sofa71",
+            "price": 500,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 172,
+            "pname": "mesa de centro72",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 173,
+            "pname": "plato hondo73",
+            "price": 4,
+            "categoria": "cocina"
+        },
+        {
+            "id": 174,
+            "pname": "sarten74",
+            "price": 20,
+            "categoria": "cocina"
+        },
+        {
+            "id": 175,
+            "pname": "tostadora de pan75",
+            "price": 30,
+            "categoria": "cocina"
+        },
+        {
+            "id": 176,
+            "pname": "cafetera76",
+            "price": 50,
+            "categoria": "cocina"
+        },
+        {
+            "id": 177,
+            "pname": "toallas de mano77",
+            "price": 8,
+            "categoria": "bano"
+        },
+        {
+            "id": 178,
+            "pname": "alfombra de bano78",
+            "price": 15,
+            "categoria": "bano"
+        },
+        {
+            "id": 179,
+            "pname": "jabon liquido79",
+            "price": 6,
+            "categoria": "bano"
+        },
+        {
+            "id": 180,
+            "pname": "crema hidratante80",
+            "price": 12,
+            "categoria": "bano"
+        },
+        {
+            "id": 181,
+            "pname": "anillo81",
+            "price": 100,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 182,
+            "pname": "collar82",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 183,
+            "pname": "gafas de sol83",
+            "price": 70,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 184,
+            "pname": "bolsa de viaje84",
+            "price": 150,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 185,
+            "pname": "smartphone85",
+            "price": 1000,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 186,
+            "pname": "cargador portatil86",
+            "price": 50,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 187,
+            "pname": "base de carga inalambrica87",
+            "price": 30,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 188,
+            "pname": "auriculares inalambricos88",
+            "price": 100,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 189,
+            "pname": "aspiradora robot89",
+            "price": 200,
+            "categoria": "domestico"
+        },
+        {
+            "id": 190,
+            "pname": "ventilador90",
+            "price": 60,
+            "categoria": "domestico"
+        },
+        {
+            "id": 191,
+            "pname": "plancha de vapor91",
+            "price": 40,
+            "categoria": "domestico"
+        },
+        {
+            "id": 192,
+            "pname": "asador de carne92",
+            "price": 150,
+            "categoria": "domestico"
+        },
+        {
+            "id": 193,
+            "pname": "abrigo93",
+            "price": 90,
+            "categoria": "ropa"
+        },
+        {
+            "id": 194,
+            "pname": "falda94",
+            "price": 35,
+            "categoria": "ropa"
+        },
+        {
+            "id": 195,
+            "pname": "gorro de lana95",
+            "price": 15,
+            "categoria": "ropa"
+        },
+        {
+            "id": 196,
+            "pname": "chaqueta impermeable96",
+            "price": 70,
+            "categoria": "ropa"
+        },
+        {
+            "id": 197,
+            "pname": "botines97",
+            "price": 80,
+            "categoria": "calzado"
+        },
+        {
+            "id": 198,
+            "pname": "zapatillas de deporte98",
+            "price": 100,
+            "categoria": "calzado"
+        },
+        {
+            "id": 199,
+            "pname": "botas de montana99",
+            "price": 120,
+            "categoria": "calzado"
+        },
+        {
+            "id": 200,
+            "pname": "botas de montana99100",
+            "price": 120,
+            "categoria": "calzado"
+        },
+        {
+            "id": 201,
+            "pname": "camisa101",
+            "price": 20,
+            "categoria": "ropa"
+        },
+        {
+            "id": 202,
+            "pname": "pantalon102",
+            "price": 30,
+            "categoria": "ropa"
+        },
+        {
+            "id": 203,
+            "pname": "calcetines103",
+            "price": 5,
+            "categoria": "calzado"
+        },
+        {
+            "id": 204,
+            "pname": "zapatos104",
+            "price": 50,
+            "categoria": "calzado"
+        },
+        {
+            "id": 205,
+            "pname": "lenovo105",
+            "price": 10,
+            "categoria": "computacion"
+        },
+        {
+            "id": 206,
+            "pname": "hp106",
+            "price": 15,
+            "categoria": "computacion"
+        },
+        {
+            "id": 207,
+            "pname": "mueble107",
+            "price": 25,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 208,
+            "pname": "silla108",
+            "price": 40,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 209,
+            "pname": "microondas109",
+            "price": 45,
+            "categoria": "domestico"
+        },
+        {
+            "id": 210,
+            "pname": "licuadora110",
+            "price": 60,
+            "categoria": "domestico"
+        },
+        {
+            "id": 211,
+            "pname": "reloj111",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 212,
+            "pname": "sombrero112",
+            "price": 15,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 213,
+            "pname": "telefono113",
+            "price": 300,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 214,
+            "pname": "auriculares114",
+            "price": 50,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 215,
+            "pname": "cama115",
+            "price": 200,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 216,
+            "pname": "mesa116",
+            "price": 100,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 217,
+            "pname": "tenedor117",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 218,
+            "pname": "olla118",
+            "price": 30,
+            "categoria": "cocina"
+        },
+        {
+            "id": 219,
+            "pname": "toalla119",
+            "price": 10,
+            "categoria": "bano"
+        },
+        {
+            "id": 220,
+            "pname": "jabon120",
+            "price": 5,
+            "categoria": "bano"
+        },
+        {
+            "id": 221,
+            "pname": "botas121",
+            "price": 70,
+            "categoria": "calzado"
+        },
+        {
+            "id": 222,
+            "pname": "sandalias122",
+            "price": 25,
+            "categoria": "calzado"
+        },
+        {
+            "id": 223,
+            "pname": "cartera123",
+            "price": 50,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 224,
+            "pname": "maletin124",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 225,
+            "pname": "aspiradora125",
+            "price": 100,
+            "categoria": "domestico"
+        },
+        {
+            "id": 226,
+            "pname": "chaqueta126",
+            "price": 35,
+            "categoria": "ropa"
+        },
+        {
+            "id": 227,
+            "pname": "gorra127",
+            "price": 10,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 228,
+            "pname": "monitor128",
+            "price": 150,
+            "categoria": "computacion"
+        },
+        {
+            "id": 229,
+            "pname": "escritorio129",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 230,
+            "pname": "almohada130",
+            "price": 15,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 231,
+            "pname": "batidora131",
+            "price": 40,
+            "categoria": "domestico"
+        },
+        {
+            "id": 232,
+            "pname": "refrigerador132",
+            "price": 500,
+            "categoria": "domestico"
+        },
+        {
+            "id": 233,
+            "pname": "estufa133",
+            "price": 200,
+            "categoria": "domestico"
+        },
+        {
+            "id": 234,
+            "pname": "plato134",
+            "price": 3,
+            "categoria": "cocina"
+        },
+        {
+            "id": 235,
+            "pname": "vaso135",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 236,
+            "pname": "cepillo136",
+            "price": 4,
+            "categoria": "bano"
+        },
+        {
+            "id": 237,
+            "pname": "espejo137",
+            "price": 30,
+            "categoria": "bano"
+        },
+        {
+            "id": 238,
+            "pname": "iphone138",
+            "price": 900,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 239,
+            "pname": "teclado139",
+            "price": 60,
+            "categoria": "computacion"
+        },
+        {
+            "id": 240,
+            "pname": "mesilla140",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 241,
+            "pname": "sillon141",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 242,
+            "pname": "tostadora142",
+            "price": 25,
+            "categoria": "domestico"
+        },
+        {
+            "id": 243,
+            "pname": "plancha143",
+            "price": 35,
+            "categoria": "domestico"
+        },
+        {
+            "id": 244,
+            "pname": "cuchillo144",
+            "price": 8,
+            "categoria": "cocina"
+        },
+        {
+            "id": 245,
+            "pname": "cuchara145",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 246,
+            "pname": "jabonera146",
+            "price": 5,
+            "categoria": "bano"
+        },
+        {
+            "id": 247,
+            "pname": "perfume147",
+            "price": 70,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 248,
+            "pname": "billetera148",
+            "price": 20,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 249,
+            "pname": "tableta149",
+            "price": 200,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 250,
+            "pname": "raton150",
+            "price": 30,
+            "categoria": "computacion"
+        },
+        {
+            "id": 251,
+            "pname": "espejo de cuerpo entero151",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 252,
+            "pname": "cojin152",
+            "price": 12,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 253,
+            "pname": "horno153",
+            "price": 250,
+            "categoria": "domestico"
+        },
+        {
+            "id": 254,
+            "pname": "lavadora154",
+            "price": 400,
+            "categoria": "domestico"
+        },
+        {
+            "id": 255,
+            "pname": "secadora155",
+            "price": 350,
+            "categoria": "domestico"
+        },
+        {
+            "id": 256,
+            "pname": "televisor156",
+            "price": 600,
+            "categoria": "domestico"
+        },
+        {
+            "id": 257,
+            "pname": "manta157",
+            "price": 30,
+            "categoria": "ropa"
+        },
+        {
+            "id": 258,
+            "pname": "pantalones cortos158",
+            "price": 25,
+            "categoria": "ropa"
+        },
+        {
+            "id": 259,
+            "pname": "vestido159",
+            "price": 50,
+            "categoria": "ropa"
+        },
+        {
+            "id": 260,
+            "pname": "chaqueta de cuero160",
+            "price": 120,
+            "categoria": "ropa"
+        },
+        {
+            "id": 261,
+            "pname": "zapatillas deportivas161",
+            "price": 80,
+            "categoria": "calzado"
+        },
+        {
+            "id": 262,
+            "pname": "sandalias de playa162",
+            "price": 20,
+            "categoria": "calzado"
+        },
+        {
+            "id": 263,
+            "pname": "zuecos163",
+            "price": 40,
+            "categoria": "calzado"
+        },
+        {
+            "id": 264,
+            "pname": "botas de lluvia164",
+            "price": 60,
+            "categoria": "calzado"
+        },
+        {
+            "id": 265,
+            "pname": "laptop165",
+            "price": 800,
+            "categoria": "computacion"
+        },
+        {
+            "id": 266,
+            "pname": "tablet166",
+            "price": 300,
+            "categoria": "computacion"
+        },
+        {
+            "id": 267,
+            "pname": "impresora167",
+            "price": 150,
+            "categoria": "computacion"
+        },
+        {
+            "id": 268,
+            "pname": "escaner168",
+            "price": 100,
+            "categoria": "computacion"
+        },
+        {
+            "id": 269,
+            "pname": "escritorio de oficina169",
+            "price": 250,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 270,
+            "pname": "estanteria170",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 271,
+            "pname": "sofa171",
+            "price": 500,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 272,
+            "pname": "mesa de centro172",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 273,
+            "pname": "plato hondo173",
+            "price": 4,
+            "categoria": "cocina"
+        },
+        {
+            "id": 274,
+            "pname": "sarten174",
+            "price": 20,
+            "categoria": "cocina"
+        },
+        {
+            "id": 275,
+            "pname": "tostadora de pan175",
+            "price": 30,
+            "categoria": "cocina"
+        },
+        {
+            "id": 276,
+            "pname": "cafetera176",
+            "price": 50,
+            "categoria": "cocina"
+        },
+        {
+            "id": 277,
+            "pname": "toallas de mano177",
+            "price": 8,
+            "categoria": "bano"
+        },
+        {
+            "id": 278,
+            "pname": "alfombra de bano178",
+            "price": 15,
+            "categoria": "bano"
+        },
+        {
+            "id": 279,
+            "pname": "jabon liquido179",
+            "price": 6,
+            "categoria": "bano"
+        },
+        {
+            "id": 280,
+            "pname": "crema hidratante180",
+            "price": 12,
+            "categoria": "bano"
+        },
+        {
+            "id": 281,
+            "pname": "anillo181",
+            "price": 100,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 282,
+            "pname": "collar182",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 283,
+            "pname": "gafas de sol183",
+            "price": 70,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 284,
+            "pname": "bolsa de viaje184",
+            "price": 150,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 285,
+            "pname": "smartphone185",
+            "price": 1000,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 286,
+            "pname": "cargador portatil186",
+            "price": 50,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 287,
+            "pname": "base de carga inalambrica187",
+            "price": 30,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 288,
+            "pname": "auriculares inalambricos188",
+            "price": 100,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 289,
+            "pname": "aspiradora robot189",
+            "price": 200,
+            "categoria": "domestico"
+        },
+        {
+            "id": 290,
+            "pname": "ventilador190",
+            "price": 60,
+            "categoria": "domestico"
+        },
+        {
+            "id": 291,
+            "pname": "plancha de vapor191",
+            "price": 40,
+            "categoria": "domestico"
+        },
+        {
+            "id": 292,
+            "pname": "asador de carne192",
+            "price": 150,
+            "categoria": "domestico"
+        },
+        {
+            "id": 293,
+            "pname": "abrigo193",
+            "price": 90,
+            "categoria": "ropa"
+        },
+        {
+            "id": 294,
+            "pname": "falda194",
+            "price": 35,
+            "categoria": "ropa"
+        },
+        {
+            "id": 295,
+            "pname": "gorro de lana195",
+            "price": 15,
+            "categoria": "ropa"
+        },
+        {
+            "id": 296,
+            "pname": "chaqueta impermeable196",
+            "price": 70,
+            "categoria": "ropa"
+        },
+        {
+            "id": 297,
+            "pname": "botines197",
+            "price": 80,
+            "categoria": "calzado"
+        },
+        {
+            "id": 298,
+            "pname": "zapatillas de deporte198",
+            "price": 100,
+            "categoria": "calzado"
+        },
+        {
+            "id": 299,
+            "pname": "botas de montana199",
+            "price": 120,
+            "categoria": "calzado"
+        },
+        {
+            "id": 300,
+            "pname": "botas de montana199200",
+            "price": 120,
+            "categoria": "calzado"
+        },
+        {
+            "id": 301,
+            "pname": "camisa201",
+            "price": 20,
+            "categoria": "ropa"
+        },
+        {
+            "id": 302,
+            "pname": "pantalon202",
+            "price": 30,
+            "categoria": "ropa"
+        },
+        {
+            "id": 303,
+            "pname": "calcetines203",
+            "price": 5,
+            "categoria": "calzado"
+        },
+        {
+            "id": 304,
+            "pname": "zapatos204",
+            "price": 50,
+            "categoria": "calzado"
+        },
+        {
+            "id": 305,
+            "pname": "lenovo205",
+            "price": 10,
+            "categoria": "computacion"
+        },
+        {
+            "id": 306,
+            "pname": "hp206",
+            "price": 15,
+            "categoria": "computacion"
+        },
+        {
+            "id": 307,
+            "pname": "mueble207",
+            "price": 25,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 308,
+            "pname": "silla208",
+            "price": 40,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 309,
+            "pname": "microondas209",
+            "price": 45,
+            "categoria": "domestico"
+        },
+        {
+            "id": 310,
+            "pname": "licuadora210",
+            "price": 60,
+            "categoria": "domestico"
+        },
+        {
+            "id": 311,
+            "pname": "reloj211",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 312,
+            "pname": "sombrero212",
+            "price": 15,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 313,
+            "pname": "telefono213",
+            "price": 300,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 314,
+            "pname": "auriculares214",
+            "price": 50,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 315,
+            "pname": "cama215",
+            "price": 200,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 316,
+            "pname": "mesa216",
+            "price": 100,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 317,
+            "pname": "tenedor217",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 318,
+            "pname": "olla218",
+            "price": 30,
+            "categoria": "cocina"
+        },
+        {
+            "id": 319,
+            "pname": "toalla219",
+            "price": 10,
+            "categoria": "bano"
+        },
+        {
+            "id": 320,
+            "pname": "jabon220",
+            "price": 5,
+            "categoria": "bano"
+        },
+        {
+            "id": 321,
+            "pname": "botas221",
+            "price": 70,
+            "categoria": "calzado"
+        },
+        {
+            "id": 322,
+            "pname": "sandalias222",
+            "price": 25,
+            "categoria": "calzado"
+        },
+        {
+            "id": 323,
+            "pname": "cartera223",
+            "price": 50,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 324,
+            "pname": "maletin224",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 325,
+            "pname": "aspiradora225",
+            "price": 100,
+            "categoria": "domestico"
+        },
+        {
+            "id": 326,
+            "pname": "chaqueta226",
+            "price": 35,
+            "categoria": "ropa"
+        },
+        {
+            "id": 327,
+            "pname": "gorra227",
+            "price": 10,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 328,
+            "pname": "monitor228",
+            "price": 150,
+            "categoria": "computacion"
+        },
+        {
+            "id": 329,
+            "pname": "escritorio229",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 330,
+            "pname": "almohada230",
+            "price": 15,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 331,
+            "pname": "batidora231",
+            "price": 40,
+            "categoria": "domestico"
+        },
+        {
+            "id": 332,
+            "pname": "refrigerador232",
+            "price": 500,
+            "categoria": "domestico"
+        },
+        {
+            "id": 333,
+            "pname": "estufa233",
+            "price": 200,
+            "categoria": "domestico"
+        },
+        {
+            "id": 334,
+            "pname": "plato234",
+            "price": 3,
+            "categoria": "cocina"
+        },
+        {
+            "id": 335,
+            "pname": "vaso235",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 336,
+            "pname": "cepillo236",
+            "price": 4,
+            "categoria": "bano"
+        },
+        {
+            "id": 337,
+            "pname": "espejo237",
+            "price": 30,
+            "categoria": "bano"
+        },
+        {
+            "id": 338,
+            "pname": "iphone238",
+            "price": 900,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 339,
+            "pname": "teclado239",
+            "price": 60,
+            "categoria": "computacion"
+        },
+        {
+            "id": 340,
+            "pname": "mesilla240",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 341,
+            "pname": "sillon241",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 342,
+            "pname": "tostadora242",
+            "price": 25,
+            "categoria": "domestico"
+        },
+        {
+            "id": 343,
+            "pname": "plancha243",
+            "price": 35,
+            "categoria": "domestico"
+        },
+        {
+            "id": 344,
+            "pname": "cuchillo244",
+            "price": 8,
+            "categoria": "cocina"
+        },
+        {
+            "id": 345,
+            "pname": "cuchara245",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 346,
+            "pname": "jabonera246",
+            "price": 5,
+            "categoria": "bano"
+        },
+        {
+            "id": 347,
+            "pname": "perfume247",
+            "price": 70,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 348,
+            "pname": "billetera248",
+            "price": 20,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 349,
+            "pname": "tableta249",
+            "price": 200,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 350,
+            "pname": "raton250",
+            "price": 30,
+            "categoria": "computacion"
+        },
+        {
+            "id": 351,
+            "pname": "espejo de cuerpo entero251",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 352,
+            "pname": "cojin252",
+            "price": 12,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 353,
+            "pname": "horno253",
+            "price": 250,
+            "categoria": "domestico"
+        },
+        {
+            "id": 354,
+            "pname": "lavadora254",
+            "price": 400,
+            "categoria": "domestico"
+        },
+        {
+            "id": 355,
+            "pname": "secadora255",
+            "price": 350,
+            "categoria": "domestico"
+        },
+        {
+            "id": 356,
+            "pname": "televisor256",
+            "price": 600,
+            "categoria": "domestico"
+        },
+        {
+            "id": 357,
+            "pname": "manta257",
+            "price": 30,
+            "categoria": "ropa"
+        },
+        {
+            "id": 358,
+            "pname": "pantalones cortos258",
+            "price": 25,
+            "categoria": "ropa"
+        },
+        {
+            "id": 359,
+            "pname": "vestido259",
+            "price": 50,
+            "categoria": "ropa"
+        },
+        {
+            "id": 360,
+            "pname": "chaqueta de cuero260",
+            "price": 120,
+            "categoria": "ropa"
+        },
+        {
+            "id": 361,
+            "pname": "zapatillas deportivas261",
+            "price": 80,
+            "categoria": "calzado"
+        },
+        {
+            "id": 362,
+            "pname": "sandalias de playa262",
+            "price": 20,
+            "categoria": "calzado"
+        },
+        {
+            "id": 363,
+            "pname": "zuecos263",
+            "price": 40,
+            "categoria": "calzado"
+        },
+        {
+            "id": 364,
+            "pname": "botas de lluvia264",
+            "price": 60,
+            "categoria": "calzado"
+        },
+        {
+            "id": 365,
+            "pname": "laptop265",
+            "price": 800,
+            "categoria": "computacion"
+        },
+        {
+            "id": 366,
+            "pname": "tablet266",
+            "price": 300,
+            "categoria": "computacion"
+        },
+        {
+            "id": 367,
+            "pname": "impresora267",
+            "price": 150,
+            "categoria": "computacion"
+        },
+        {
+            "id": 368,
+            "pname": "escaner268",
+            "price": 100,
+            "categoria": "computacion"
+        },
+        {
+            "id": 369,
+            "pname": "escritorio de oficina269",
+            "price": 250,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 370,
+            "pname": "estanteria270",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 371,
+            "pname": "sofa271",
+            "price": 500,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 372,
+            "pname": "mesa de centro272",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 373,
+            "pname": "plato hondo273",
+            "price": 4,
+            "categoria": "cocina"
+        },
+        {
+            "id": 374,
+            "pname": "sarten274",
+            "price": 20,
+            "categoria": "cocina"
+        },
+        {
+            "id": 375,
+            "pname": "tostadora de pan275",
+            "price": 30,
+            "categoria": "cocina"
+        },
+        {
+            "id": 376,
+            "pname": "cafetera276",
+            "price": 50,
+            "categoria": "cocina"
+        },
+        {
+            "id": 377,
+            "pname": "toallas de mano277",
+            "price": 8,
+            "categoria": "bano"
+        },
+        {
+            "id": 378,
+            "pname": "alfombra de bano278",
+            "price": 15,
+            "categoria": "bano"
+        },
+        {
+            "id": 379,
+            "pname": "jabon liquido279",
+            "price": 6,
+            "categoria": "bano"
+        },
+        {
+            "id": 380,
+            "pname": "crema hidratante280",
+            "price": 12,
+            "categoria": "bano"
+        },
+        {
+            "id": 381,
+            "pname": "anillo281",
+            "price": 100,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 382,
+            "pname": "collar282",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 383,
+            "pname": "gafas de sol283",
+            "price": 70,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 384,
+            "pname": "bolsa de viaje284",
+            "price": 150,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 385,
+            "pname": "smartphone285",
+            "price": 1000,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 386,
+            "pname": "cargador portatil286",
+            "price": 50,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 387,
+            "pname": "base de carga inalambrica287",
+            "price": 30,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 388,
+            "pname": "auriculares inalambricos288",
+            "price": 100,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 389,
+            "pname": "aspiradora robot289",
+            "price": 200,
+            "categoria": "domestico"
+        },
+        {
+            "id": 390,
+            "pname": "ventilador290",
+            "price": 60,
+            "categoria": "domestico"
+        },
+        {
+            "id": 391,
+            "pname": "plancha de vapor291",
+            "price": 40,
+            "categoria": "domestico"
+        },
+        {
+            "id": 392,
+            "pname": "asador de carne292",
+            "price": 150,
+            "categoria": "domestico"
+        },
+        {
+            "id": 393,
+            "pname": "abrigo293",
+            "price": 90,
+            "categoria": "ropa"
+        },
+        {
+            "id": 394,
+            "pname": "falda294",
+            "price": 35,
+            "categoria": "ropa"
+        },
+        {
+            "id": 395,
+            "pname": "gorro de lana295",
+            "price": 15,
+            "categoria": "ropa"
+        },
+        {
+            "id": 396,
+            "pname": "chaqueta impermeable296",
+            "price": 70,
+            "categoria": "ropa"
+        },
+        {
+            "id": 397,
+            "pname": "botines297",
+            "price": 80,
+            "categoria": "calzado"
+        },
+        {
+            "id": 398,
+            "pname": "zapatillas de deporte298",
+            "price": 100,
+            "categoria": "calzado"
+        },
+        {
+            "id": 399,
+            "pname": "botas de montana299",
+            "price": 120,
+            "categoria": "calzado"
+        },
+        {
+            "id": 400,
+            "pname": "botas de montana299300",
+            "price": 120,
+            "categoria": "calzado"
+        },
+        {
+            "id": 401,
+            "pname": "camisa301",
+            "price": 20,
+            "categoria": "ropa"
+        },
+        {
+            "id": 402,
+            "pname": "pantalon302",
+            "price": 30,
+            "categoria": "ropa"
+        },
+        {
+            "id": 403,
+            "pname": "calcetines303",
+            "price": 5,
+            "categoria": "calzado"
+        },
+        {
+            "id": 404,
+            "pname": "zapatos304",
+            "price": 50,
+            "categoria": "calzado"
+        },
+        {
+            "id": 405,
+            "pname": "lenovo305",
+            "price": 10,
+            "categoria": "computacion"
+        },
+        {
+            "id": 406,
+            "pname": "hp306",
+            "price": 15,
+            "categoria": "computacion"
+        },
+        {
+            "id": 407,
+            "pname": "mueble307",
+            "price": 25,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 408,
+            "pname": "silla308",
+            "price": 40,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 409,
+            "pname": "microondas309",
+            "price": 45,
+            "categoria": "domestico"
+        },
+        {
+            "id": 410,
+            "pname": "licuadora310",
+            "price": 60,
+            "categoria": "domestico"
+        },
+        {
+            "id": 411,
+            "pname": "reloj311",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 412,
+            "pname": "sombrero312",
+            "price": 15,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 413,
+            "pname": "telefono313",
+            "price": 300,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 414,
+            "pname": "auriculares314",
+            "price": 50,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 415,
+            "pname": "cama315",
+            "price": 200,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 416,
+            "pname": "mesa316",
+            "price": 100,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 417,
+            "pname": "tenedor317",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 418,
+            "pname": "olla318",
+            "price": 30,
+            "categoria": "cocina"
+        },
+        {
+            "id": 419,
+            "pname": "toalla319",
+            "price": 10,
+            "categoria": "bano"
+        },
+        {
+            "id": 420,
+            "pname": "jabon320",
+            "price": 5,
+            "categoria": "bano"
+        },
+        {
+            "id": 421,
+            "pname": "botas321",
+            "price": 70,
+            "categoria": "calzado"
+        },
+        {
+            "id": 422,
+            "pname": "sandalias322",
+            "price": 25,
+            "categoria": "calzado"
+        },
+        {
+            "id": 423,
+            "pname": "cartera323",
+            "price": 50,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 424,
+            "pname": "maletin324",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 425,
+            "pname": "aspiradora325",
+            "price": 100,
+            "categoria": "domestico"
+        },
+        {
+            "id": 426,
+            "pname": "chaqueta326",
+            "price": 35,
+            "categoria": "ropa"
+        },
+        {
+            "id": 427,
+            "pname": "gorra327",
+            "price": 10,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 428,
+            "pname": "monitor328",
+            "price": 150,
+            "categoria": "computacion"
+        },
+        {
+            "id": 429,
+            "pname": "escritorio329",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 430,
+            "pname": "almohada330",
+            "price": 15,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 431,
+            "pname": "batidora331",
+            "price": 40,
+            "categoria": "domestico"
+        },
+        {
+            "id": 432,
+            "pname": "refrigerador332",
+            "price": 500,
+            "categoria": "domestico"
+        },
+        {
+            "id": 433,
+            "pname": "estufa333",
+            "price": 200,
+            "categoria": "domestico"
+        },
+        {
+            "id": 434,
+            "pname": "plato334",
+            "price": 3,
+            "categoria": "cocina"
+        },
+        {
+            "id": 435,
+            "pname": "vaso335",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 436,
+            "pname": "cepillo336",
+            "price": 4,
+            "categoria": "bano"
+        },
+        {
+            "id": 437,
+            "pname": "espejo337",
+            "price": 30,
+            "categoria": "bano"
+        },
+        {
+            "id": 438,
+            "pname": "iphone338",
+            "price": 900,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 439,
+            "pname": "teclado339",
+            "price": 60,
+            "categoria": "computacion"
+        },
+        {
+            "id": 440,
+            "pname": "mesilla340",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 441,
+            "pname": "sillon341",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 442,
+            "pname": "tostadora342",
+            "price": 25,
+            "categoria": "domestico"
+        },
+        {
+            "id": 443,
+            "pname": "plancha343",
+            "price": 35,
+            "categoria": "domestico"
+        },
+        {
+            "id": 444,
+            "pname": "cuchillo344",
+            "price": 8,
+            "categoria": "cocina"
+        },
+        {
+            "id": 445,
+            "pname": "cuchara345",
+            "price": 2,
+            "categoria": "cocina"
+        },
+        {
+            "id": 446,
+            "pname": "jabonera346",
+            "price": 5,
+            "categoria": "bano"
+        },
+        {
+            "id": 447,
+            "pname": "perfume347",
+            "price": 70,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 448,
+            "pname": "billetera348",
+            "price": 20,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 449,
+            "pname": "tableta349",
+            "price": 200,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 450,
+            "pname": "raton350",
+            "price": 30,
+            "categoria": "computacion"
+        },
+        {
+            "id": 451,
+            "pname": "espejo de cuerpo entero351",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 452,
+            "pname": "cojin352",
+            "price": 12,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 453,
+            "pname": "horno353",
+            "price": 250,
+            "categoria": "domestico"
+        },
+        {
+            "id": 454,
+            "pname": "lavadora354",
+            "price": 400,
+            "categoria": "domestico"
+        },
+        {
+            "id": 455,
+            "pname": "secadora355",
+            "price": 350,
+            "categoria": "domestico"
+        },
+        {
+            "id": 456,
+            "pname": "televisor356",
+            "price": 600,
+            "categoria": "domestico"
+        },
+        {
+            "id": 457,
+            "pname": "manta357",
+            "price": 30,
+            "categoria": "ropa"
+        },
+        {
+            "id": 458,
+            "pname": "pantalones cortos358",
+            "price": 25,
+            "categoria": "ropa"
+        },
+        {
+            "id": 459,
+            "pname": "vestido359",
+            "price": 50,
+            "categoria": "ropa"
+        },
+        {
+            "id": 460,
+            "pname": "chaqueta de cuero360",
+            "price": 120,
+            "categoria": "ropa"
+        },
+        {
+            "id": 461,
+            "pname": "zapatillas deportivas361",
+            "price": 80,
+            "categoria": "calzado"
+        },
+        {
+            "id": 462,
+            "pname": "sandalias de playa362",
+            "price": 20,
+            "categoria": "calzado"
+        },
+        {
+            "id": 463,
+            "pname": "zuecos363",
+            "price": 40,
+            "categoria": "calzado"
+        },
+        {
+            "id": 464,
+            "pname": "botas de lluvia364",
+            "price": 60,
+            "categoria": "calzado"
+        },
+        {
+            "id": 465,
+            "pname": "laptop365",
+            "price": 800,
+            "categoria": "computacion"
+        },
+        {
+            "id": 466,
+            "pname": "tablet366",
+            "price": 300,
+            "categoria": "computacion"
+        },
+        {
+            "id": 467,
+            "pname": "impresora367",
+            "price": 150,
+            "categoria": "computacion"
+        },
+        {
+            "id": 468,
+            "pname": "escaner368",
+            "price": 100,
+            "categoria": "computacion"
+        },
+        {
+            "id": 469,
+            "pname": "escritorio de oficina369",
+            "price": 250,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 470,
+            "pname": "estanteria370",
+            "price": 80,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 471,
+            "pname": "sofa371",
+            "price": 500,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 472,
+            "pname": "mesa de centro372",
+            "price": 150,
+            "categoria": "mobiliaria"
+        },
+        {
+            "id": 473,
+            "pname": "plato hondo373",
+            "price": 4,
+            "categoria": "cocina"
+        },
+        {
+            "id": 474,
+            "pname": "sarten374",
+            "price": 20,
+            "categoria": "cocina"
+        },
+        {
+            "id": 475,
+            "pname": "tostadora de pan375",
+            "price": 30,
+            "categoria": "cocina"
+        },
+        {
+            "id": 476,
+            "pname": "cafetera376",
+            "price": 50,
+            "categoria": "cocina"
+        },
+        {
+            "id": 477,
+            "pname": "toallas de mano377",
+            "price": 8,
+            "categoria": "bano"
+        },
+        {
+            "id": 478,
+            "pname": "alfombra de bano378",
+            "price": 15,
+            "categoria": "bano"
+        },
+        {
+            "id": 479,
+            "pname": "jabon liquido379",
+            "price": 6,
+            "categoria": "bano"
+        },
+        {
+            "id": 480,
+            "pname": "crema hidratante380",
+            "price": 12,
+            "categoria": "bano"
+        },
+        {
+            "id": 481,
+            "pname": "anillo381",
+            "price": 100,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 482,
+            "pname": "collar382",
+            "price": 80,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 483,
+            "pname": "gafas de sol383",
+            "price": 70,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 484,
+            "pname": "bolsa de viaje384",
+            "price": 150,
+            "categoria": "accesorios"
+        },
+        {
+            "id": 485,
+            "pname": "smartphone385",
+            "price": 1000,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 486,
+            "pname": "cargador portatil386",
+            "price": 50,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 487,
+            "pname": "base de carga inalambrica387",
+            "price": 30,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 488,
+            "pname": "auriculares inalambricos388",
+            "price": 100,
+            "categoria": "telefonia"
+        },
+        {
+            "id": 489,
+            "pname": "aspiradora robot389",
+            "price": 200,
+            "categoria": "domestico"
+        },
+        {
+            "id": 490,
+            "pname": "ventilador390",
+            "price": 60,
+            "categoria": "domestico"
+        },
+        {
+            "id": 491,
+            "pname": "plancha de vapor391",
+            "price": 40,
+            "categoria": "domestico"
+        },
+        {
+            "id": 492,
+            "pname": "asador de carne392",
+            "price": 150,
+            "categoria": "domestico"
+        },
+        {
+            "id": 493,
+            "pname": "abrigo393",
+            "price": 90,
+            "categoria": "ropa"
+        },
+        {
+            "id": 494,
+            "pname": "falda394",
+            "price": 35,
+            "categoria": "ropa"
+        },
+        {
+            "id": 495,
+            "pname": "gorro de lana395",
+            "price": 15,
+            "categoria": "ropa"
+        },
+        {
+            "id": 496,
+            "pname": "chaqueta impermeable396",
+            "price": 70,
+            "categoria": "ropa"
+        },
+        {
+            "id": 497,
+            "pname": "botines397",
+            "price": 80,
+            "categoria": "calzado"
+        },
+        {
+            "id": 498,
+            "pname": "zapatillas de deporte398",
+            "price": 100,
+            "categoria": "calzado"
+        },
+        {
+            "id": 499,
+            "pname": "botas de montana399",
+            "price": 120,
+            "categoria": "calzado"
+        },
+        {
+            "id": 500,
+            "pname": "botas de montana399400",
+            "price": 120,
+            "categoria": "calzado"
+        }
+    ]
+}
