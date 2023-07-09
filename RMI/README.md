@@ -82,22 +82,22 @@ rmiregistry 4002
 
 ```
 cd appServer
-java ServidorChat
+java ServidorChat clavePrivada
 ```
 
 6) en la consola(3, 4 y 5) ejecutar el cliente del chat, ingresar tu apodo y luego enviar mensajes
 
 ```
 cd appClient1
-java ClienteScanner 1
+java ClienteScanner 1 clavePrivada
 ```
 
 cd appClient2
-java ClienteScanner 2
+java ClienteScanner 2 clavePrivada
 ```
 
 cd appClient3
-java ClienteScanner 3
+java ClienteScanner 3 clavePrivada
 ````
 
 Nota: Para añadir mas clientes, en el caso de que se añadio mas slaves en HTTP, se puede copiar y pegar una carpeta de cliente y configurar el archivo config con el path correspondiente al log del slave que se añadio.

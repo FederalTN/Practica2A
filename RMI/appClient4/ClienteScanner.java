@@ -9,8 +9,8 @@ class ClienteScanner {
     private static final int PORT = 4002;
 
     static public void main(String args[]) {
-        if (args.length != 1) {
-            System.err.println("Uso: ClienteScanner codigoCliente");
+        if (args.length != 2) {
+            System.err.println("Uso: ClienteScanner codigoCliente clavePrivada");
             return;
         }
 
@@ -24,6 +24,7 @@ class ClienteScanner {
             srv.alta(c);
 
             String apodo = args[0];
+            String clavePrivada = args[1];
             System.out.print("Inicializado el cliente: " + apodo + "\n");
 
             // Archivo de configuracion
@@ -38,9 +39,9 @@ class ClienteScanner {
             String archivoLog = path + archivoName;
             long ultimaLineaLeida = Long.parseLong(prop.getProperty("ultimaLineaLeida"));
 
-            // 5 segundos en milisegundos
-            int tiempoEspera = 5000;
-            leerArchivoLog(srv, c, apodo, archivoLog, tiempoEspera, ultimaLineaLeida, prop);
+            // 1 segundos en milisegundos
+            int tiempoEspera = 1000;
+            leerArchivoLog(srv, c, apodo, archivoLog, tiempoEspera, ultimaLineaLeida, prop, clavePrivada);
 
             // Avisa desconexión del cliente al servidor
             srv.baja(c);
@@ -53,7 +54,8 @@ class ClienteScanner {
         }
     }
 
-    private static void leerArchivoLog(ServicioChat srv, ClienteImpl cliente, String nombreCliente, String archivoLog, int tiempoEspera, long ultimaLineaLeida, Properties prop) throws RemoteException {
+    // Lee el archivo log para enviar la informacion al log centralizado
+    private static void leerArchivoLog(ServicioChat srv, ClienteImpl cliente, String nombreCliente, String archivoLog, int tiempoEspera, long ultimaLineaLeida, Properties prop, String clavePrivada) throws RemoteException {
         while (true) {
             try (BufferedReader br = new BufferedReader(new FileReader(archivoLog))) {
                 // Saltar las líneas previamente leídas usando la memoria del archivo configuracion
@@ -66,9 +68,9 @@ class ClienteScanner {
                     // Registro timestamp
                     long timestamp = System.currentTimeMillis() / 1000;
                     String mensajeRegistro = linea + "; " + timestamp + "; cliente" + nombreCliente;
-                    // Envío de mensaje
-                    srv.envio(cliente, nombreCliente, mensajeRegistro);
+                    // Envío de mensaje + encriptacion
                     System.out.println(mensajeRegistro);
+                    srv.envio(cliente, nombreCliente, encriptarMensaje(mensajeRegistro, clavePrivada));
 
                     ultimaLineaLeida++;  // Actualizar el número de la última línea leída
                 }
@@ -76,7 +78,6 @@ class ClienteScanner {
                 System.err.println("Error al leer el archivo " + archivoLog);
                 e.printStackTrace();
             }
-
             try {
                 // Guardar la última línea leída en el archivo de configuración
                 prop.setProperty("ultimaLineaLeida", String.valueOf(ultimaLineaLeida));
@@ -93,5 +94,16 @@ class ClienteScanner {
                 e.printStackTrace();
             }
         }
+    }
+    // Algoritmo para la encriptacion del mensaje
+    private static String encriptarMensaje(String mensaje, String clavePrivada) throws RemoteException {
+        StringBuilder mensajeEncriptado = new StringBuilder();
+        for (int i = 0; i < mensaje.length(); i++) {
+            int caracterMensaje = mensaje.charAt(i);
+            int caracterClave = clavePrivada.charAt(i % clavePrivada.length());
+            int caracterEncriptado = (caracterMensaje + caracterClave) % 256;
+            mensajeEncriptado.append((char) caracterEncriptado);
+        }
+        return mensajeEncriptado.toString();
     }
 }

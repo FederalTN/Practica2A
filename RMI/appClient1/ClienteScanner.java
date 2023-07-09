@@ -39,8 +39,8 @@ class ClienteScanner {
             String archivoLog = path + archivoName;
             long ultimaLineaLeida = Long.parseLong(prop.getProperty("ultimaLineaLeida"));
 
-            // 5 segundos en milisegundos
-            int tiempoEspera = 5000;
+            // 1 segundos en milisegundos
+            int tiempoEspera = 1000;
             leerArchivoLog(srv, c, apodo, archivoLog, tiempoEspera, ultimaLineaLeida, prop, clavePrivada);
 
             // Avisa desconexión del cliente al servidor
