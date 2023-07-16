@@ -1657,3 +1657,15 @@ bc817a7c-1e85-11ee-a424-557cb373497c; 1688927023; buscar por categorias; ini; 16
 bc817a7c-1e85-11ee-a424-557cb373497c; 1688927030; buscar por categorias; fin; 1688927030; cliente2; 1688927030
 c2025098-1e85-11ee-a424-557cb373497c; 1688927032; buscar por categorias; ini; 1688927033; cliente3; 1688927033
 c2025098-1e85-11ee-a424-557cb373497c; 1688927040; buscar por categorias; fin; 1688927041; cliente3; 1688927041
+inicio de conexion;cliente1; 1689058064
+inicio de conexion;cliente2; 1689058113
+inicio de conexion;cliente3; 1689058158
+22710492-1fb7-11ee-a202-afe78310b347; 1689058191; buscar por categorias; ini; 1689058191; cliente3; 1689058191
+22710492-1fb7-11ee-a202-afe78310b347; 1689058191; buscar por categorias; fin; 1689058191; cliente3; 1689058191
+226e83ca-1fb7-11ee-a202-afe78310b347; 1689058191; buscar por categorias; ini; 1689058191; cliente2; 1689058191
+226e83ca-1fb7-11ee-a202-afe78310b347; 1689058191; buscar por categorias; fin; 1689058191; cliente2; 1689058191
+2269e0d6-1fb7-11ee-a202-afe78310b347; 1689058191; buscar por categorias; ini; 1689058191; cliente1; 1689058191
+2269e0d6-1fb7-11ee-a202-afe78310b347; 1689058191; buscar por categorias; fin; 1689058191; cliente1; 1689058191
+inicio de conexion;cliente1; 1689102566
+inicio de conexion;cliente2; 1689102582
+inicio de conexion;cliente3; 1689102601
